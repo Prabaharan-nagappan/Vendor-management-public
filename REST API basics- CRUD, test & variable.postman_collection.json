@@ -322,6 +322,33 @@
 					"response": []
 				}
 			]
+		},
+		{
+			"name": "Performance",
+			"item": [
+				{
+					"name": "get performance",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/vendors/1/performance",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"vendors",
+								"1",
+								"performance"
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		}
 	],
 	"event": [
